@@ -80,13 +80,8 @@ The yapf style can be globally set, in your vimrc:
 
 ::
 
- let g:yapf_style = "google"
+ let g:yapf_style_conf = "path/to/style"
 
-or
-
-::
-
- let g:yapf_style = "pep8"
 
 Why you may not need this plugin
 ================================
