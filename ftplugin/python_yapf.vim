@@ -25,8 +25,8 @@ if !exists("Yapf(...)")
             let yapf_cmd="yapf"
         endif
 
-        if exists("g:yapf_style")
-            let yapf_style=" --style " . g:yapf_style
+        if exists("g:yapf_style_conf")
+            let yapf_style=" --style " . g:yapf_style_conf
         else
             let yapf_style=""
         endif
